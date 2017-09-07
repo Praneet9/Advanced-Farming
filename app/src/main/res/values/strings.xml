@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Advanced Farming</string>
+    <string name="condition">Condition</string>
+    <string name="location">Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="welcome">Welcome</string>
+    <string name="kcc">Kisaan Credit Card</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact</string>
+    <string name="praneet">Praneet</string>
+    <string name="bhumit">Bhumit</string>
+    <string name="saurabh">Saurabh</string>
+    <string name="muteeullah">Muteeullah</string>
+    <string name="sell">Sell</string>
+    <string name="kcci">KCC</string>
+    <string name="weather">Weather</string>
+    <string name="ministry">Ministry</string>
+    <string name="search">Search</string>
+    <string name="searchbar">Search</string>
+</resources>

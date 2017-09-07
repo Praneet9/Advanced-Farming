@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/layoutcolor"
+    tools:context="com.myapp.finalapp.MainActivity">
+
+    <ImageButton
+        android:text="KCC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/sellButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/kcc"
+        android:id="@+id/kccButton"
+        android:onClick="kccButtonClicked" />
+
+    <ImageButton
+        android:text="Weather"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/sellButton"
+        android:layout_alignStart="@+id/sellButton"
+        android:background="@drawable/weather"
+        android:id="@+id/weatherButton"
+        android:onClick="weatherButtonClicked"
+        android:layout_alignTop="@+id/ministryButton" />
+
+    <ImageButton
+        android:text="Ministry"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ministryButton"
+        android:background="@drawable/ministry"
+        android:onClick="ministryButtonClicked"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/kccButton"
+        android:layout_alignStart="@+id/kccButton" />
+
+    <TextView
+        android:text="Sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kccButton"
+        android:layout_alignLeft="@+id/sellButton"
+        android:layout_alignStart="@+id/sellButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/sellTextview"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="KCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sellTextview"
+        android:layout_alignLeft="@+id/kccButton"
+        android:layout_alignStart="@+id/kccButton"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/kccTextview"
+        android:textStyle="normal|bold"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:text="Sell"
+        android:layout_height="100dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:id="@+id/sellButton"
+        android:layout_width="100dp"
+        android:onClick="sellButtonClicked"
+        android:background="@drawable/sell"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherTextview"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/weatherButton"
+        android:layout_alignRight="@+id/weatherButton"
+        android:layout_alignEnd="@+id/weatherButton"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:text="Ministry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ministryTextview"
+        android:textStyle="normal|bold"
+        android:textSize="25sp"
+        android:layout_alignBaseline="@+id/weatherTextview"
+        android:layout_alignBottom="@+id/weatherTextview"
+        android:layout_alignRight="@+id/kccButton"
+        android:layout_alignEnd="@+id/kccButton" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:id="@+id/searchEdittext"
+        android:hint="Search"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchButton"
+        android:background="@drawable/buttonrectangle"
+        android:onClick="searchButtonClicked"
+        android:layout_below="@+id/searchEdittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

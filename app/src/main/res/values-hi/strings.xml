@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">उन्नत खेती</string>
+    <string name="condition">Condition</string>
+    <string name="location">Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="welcome">स्वागत </string>
+    <string name="kcc">किसान क्रेडिट कार्ड</string>
+    <string name="name">नाम</string>
+    <string name="contact">संपर्क करें</string>
+    <string name="praneet">प्रणीत</string>
+    <string name="bhumit">भूमित</string>
+    <string name="saurabh">सौरभ</string>
+    <string name="muteeullah">Muteeullah</string>
+    <string name="sell">बेचना</string>
+    <string name="kcci">केसीसी</string>
+    <string name="weather">मौसम</string>
+    <string name="ministry">मंत्रालय</string>
+    <string name="search">खोज</string>
+    <string name="searchbar">खोज</string>
+</resources>
